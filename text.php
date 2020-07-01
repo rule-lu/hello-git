@@ -1,7 +1,7 @@
 <?php
 // Include the main TCPDF library (search for installation path).
 require_once('TCPDF-master/tcpdf.php');
-
+echo '123';
 // Extend the TCPDF class to create custom Header and Footer
 // 自訂頁首與頁尾
 class MYPDF extends TCPDF {
